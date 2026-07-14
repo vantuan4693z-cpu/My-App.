@@ -1,14 +1,3 @@
-<script>
-// Đăng ký Service Worker
-if ('serviceWorker' in navigator) {
-  window.addEventListener('load', function() {
-    navigator.serviceWorker.register('sw.js')
-      .then(function(registration) {
-        console.log('Service Worker đăng ký thành công:', registration.scope);
-      })
-      .catch(function(err) {
-        console.log('Đăng ký Service Worker thất bại:', err);
-      });
-  });
-}
-</script>
+self.addEventListener('fetch', function(event) {
+    // Để trống hoặc xử lý cache nếu muốn chạy offline
+});
