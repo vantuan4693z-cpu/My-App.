@@ -1,0 +1,16 @@
+{
+  "name": "My App",
+  "short_name": "My App",
+  "start_url": "index.html",
+  "display": "standalone",
+  "background_color": "#2e3446",
+  "theme_color": "#2e3446",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "icon.jpg",
+      "sizes": "499x512",
+      "type": "image/jpeg"
+    }
+  ]
+}
